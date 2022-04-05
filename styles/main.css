@@ -15,12 +15,12 @@ body {
   font-family: Roboto-Black, sans-serif, Verdana, Geneva, Tahoma;
 }
 
-a {
+.link {
   color: inherit;
   text-decoration: none;
 }
 
-a:hover { color: var(--accent-color); }
+.link:hover { color: var(--accent-color); }
 
 .dummy-avatar {
   width: 60px;
