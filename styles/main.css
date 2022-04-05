@@ -21,3 +21,9 @@ a {
 }
 
 a:hover { color: var(--accent-color); }
+
+.dummy-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
