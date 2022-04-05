@@ -142,3 +142,11 @@ a:hover { color: var(--accent-color); }
 
 .sidebar-nav a:hover, 
 .project-nav a:hover { color: var(--accent-color); }
+
+.main {
+  background-color: #e2e2e279;
+  padding: 20px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / auto 300px;
+  gap: 20px;
+}
