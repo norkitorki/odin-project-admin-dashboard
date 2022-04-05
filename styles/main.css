@@ -27,3 +27,8 @@ a:hover { color: var(--accent-color); }
   height: 60px;
   border-radius: 50%;
 }
+
+.wrapper {
+  display: grid;
+  grid-template: 1fr 6fr / 1fr 6fr;
+}
