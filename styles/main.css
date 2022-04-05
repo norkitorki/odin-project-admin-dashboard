@@ -196,3 +196,13 @@ a:hover { color: var(--accent-color); }
   grid-template-rows: 25px auto;
   gap: 20px;
 }
+
+.announcements,
+.trends {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, min-content);
+  gap: 15px;
+}
