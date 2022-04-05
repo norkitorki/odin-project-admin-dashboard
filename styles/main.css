@@ -140,9 +140,6 @@ body {
   font-size: 1.3rem;
 }
 
-.sidebar-nav a:hover, 
-.project-nav a:hover { color: var(--accent-color); }
-
 .main {
   background-color: #e2e2e279;
   padding: 20px;
