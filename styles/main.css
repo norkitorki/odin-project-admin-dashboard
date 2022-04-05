@@ -9,3 +9,8 @@
   --main-color: #03002c;
   --accent-color: #067e9c;
 }
+
+body {
+  background-color: #ffffff;
+  font-family: Roboto-Black, sans-serif, Verdana, Geneva, Tahoma;
+}
