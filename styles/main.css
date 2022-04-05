@@ -230,3 +230,5 @@ a:hover { color: var(--accent-color); }
 }
 
 .trending-user { font-weight: bold; }
+
+.trending-project { margin-top: 5px; }
