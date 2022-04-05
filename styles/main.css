@@ -190,3 +190,9 @@ a:hover { color: var(--accent-color); }
   display: flex;
   gap: 20px;
 }
+
+.main-aside {
+  display: grid;
+  grid-template-rows: 25px auto;
+  gap: 20px;
+}
