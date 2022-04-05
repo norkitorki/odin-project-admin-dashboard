@@ -107,3 +107,38 @@ a:hover { color: var(--accent-color); }
   background-color: var(--accent-color);
   cursor: pointer;
 }
+
+.sidebar {
+  color: #ffffff;
+  background-color: var(--main-color);
+  padding: 20px;
+  grid-row: 1 / -1;
+}
+
+.sidebar-heading {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-nav {
+  margin: 40px 0 40px 0;
+  display: grid;
+  gap: 10px;
+}
+
+.sidebar-nav-item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.sidebar-nav-item > a {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.sidebar-nav a:hover, 
+.project-nav a:hover { color: var(--accent-color); }
