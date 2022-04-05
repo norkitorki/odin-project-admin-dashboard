@@ -206,3 +206,8 @@ a:hover { color: var(--accent-color); }
   grid-template-rows: repeat(auto-fit, min-content);
   gap: 15px;
 }
+
+.announcement:not(.announcement:last-of-type) { 
+  border-bottom: 1px solid #999999ad;
+  padding-bottom: 10px;
+}
