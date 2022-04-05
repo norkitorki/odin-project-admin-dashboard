@@ -158,3 +158,10 @@ a:hover { color: var(--accent-color); }
   grid-auto-rows: 250px;
   gap: 20px;
 }
+
+.main-heading {
+  font-size: 20px;
+  font-weight: bold;
+  grid-column: 1 / -1;
+  align-self: end;
+}
